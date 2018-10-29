@@ -1,5 +1,6 @@
 package frc.team5234;
 
+import frc.team5234.utilities.DeadbandUtility;
 import frc.team5234.utilities.LoopPrintUtility;
 
 /**
@@ -19,6 +20,7 @@ public class FakeRobotRunner {
      * Declare a private variable for your robot modules here
      */
     LoopPrintUtility loopPrintUtility;
+    DeadbandUtility deadbandUtility;
 
     /**
      * Our FakeRobotRunner constructor
@@ -33,6 +35,7 @@ public class FakeRobotRunner {
      */
     protected void initRobot() {
         loopPrintUtility = new LoopPrintUtility();
+        deadbandUtility = new DeadbandUtility();
     }
 
     /**
@@ -40,6 +43,7 @@ public class FakeRobotRunner {
      */
     protected void periodic() {
         loopPrintUtility.periodic();
+        deadbandUtility.periodic();
     }
 
     /**

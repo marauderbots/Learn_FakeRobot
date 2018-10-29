@@ -7,18 +7,18 @@ public class LoopPrintUtility {
     /**
      * A place to hold our incremented loop count.
      */
-    private int loopCounter;
+    protected int loopCounter;
 
     /**
      * This should never change once set. It holds the time in ms of when this utility was started.
      */
-    private long startTime;
+    protected long startTime;
 
     /**
      * We hold the time in ms of the last loop execution.
      * This is used to calculate both the loop cycle time and utility life.
      */
-    private long lastLoopTime;
+    protected long lastLoopTime;
 
     /**
      * Our LoopPrintUtility constructor

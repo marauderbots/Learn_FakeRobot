@@ -1,5 +1,7 @@
 package frc.team5234;
 
+import frc.team5234.utilities.LoopPrintUtility;
+
 /**
  * FakeRobotRunner is a utility class designed for students to use while testing small functions built for a robot.
  *
@@ -16,6 +18,7 @@ public class FakeRobotRunner {
     /**
      * Declare a private variable for your robot modules here
      */
+    LoopPrintUtility loopPrintUtility;
 
     /**
      * Our FakeRobotRunner constructor
@@ -28,13 +31,15 @@ public class FakeRobotRunner {
     /**
      * Construct your robot modules here
      */
-    private void initRobot() {
+    protected void initRobot() {
+        loopPrintUtility = new LoopPrintUtility();
     }
 
     /**
      * Call your robot module's periodic method here
      */
     protected void periodic() {
+        loopPrintUtility.periodic();
     }
 
     /**

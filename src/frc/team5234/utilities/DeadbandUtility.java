@@ -32,7 +32,7 @@ public class DeadbandUtility {
         double normalizedValue = normalize(inputValue);
 
         System.out.println(MessageFormat.format(
-                "Input: {0}, Normalized: {1}",
+                "DeadbandUtility - Input: {0}, Normalized: {1}",
                 inputValue,
                 normalizedValue));
     }

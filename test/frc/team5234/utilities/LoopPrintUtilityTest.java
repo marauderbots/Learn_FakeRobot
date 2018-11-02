@@ -13,7 +13,7 @@ class LoopPrintUtilityTest {
         long currentLoopTime = System.currentTimeMillis();
         long lastLoopTime = currentLoopTime - 200;
 
-        assertEquals(lpr.getLastLoopInterval(currentLoopTime, lastLoopTime), (currentLoopTime - lastLoopTime));
+        assertEquals((currentLoopTime - lastLoopTime), lpr.getLastLoopInterval(currentLoopTime, lastLoopTime));
     }
 
     @Test
@@ -22,6 +22,6 @@ class LoopPrintUtilityTest {
 
         long currentLoopTime = System.currentTimeMillis();
 
-        assertEquals(lpr.getLifeInterval(currentLoopTime, lpr.startTime), (currentLoopTime - lpr.startTime));
+        assertEquals((currentLoopTime - lpr.startTime), lpr.getLifeInterval(currentLoopTime, lpr.startTime));
     }
 }

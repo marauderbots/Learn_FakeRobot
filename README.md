@@ -11,10 +11,10 @@ To utilize the [FakeRobotRunner](src/frc/team5234/FakeRobotRunner.java) you need
 3. Construct the utility class in the `initRobot()` function
 4. Call your utility's `periodic()` function from within the `FakeRobotRunner` `periodic()` function
 
-![Step 1](resources\images.step1.png)
+![Step 1](resources/images/step1.png)
 
-![Step 2](resources\images.step2.png)
+![Step 2](resources/images/step2.png)
 
-![Step 3](resources\images.step3.png)
+![Step 3](resources/images/step3.png)
 
-![Step 4](resources\images.step4.png)
+![Step 4](resources/images/step4.png)

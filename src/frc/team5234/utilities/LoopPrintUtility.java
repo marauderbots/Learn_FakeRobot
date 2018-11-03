@@ -44,7 +44,7 @@ public class LoopPrintUtility {
         long currentLoopTime = System.currentTimeMillis();
 
         System.out.println(MessageFormat.format(
-                "Loop: {0}, Time: {1}, Life: {2}",
+                "LoopPrintUtility - Loop: {0}, Time: {1}, Life: {2}",
                 loopCounter,
                 getLastLoopInterval(currentLoopTime, lastLoopTime),
                 getLifeInterval(currentLoopTime, startTime)));

@@ -31,6 +31,6 @@ To utilize the [FakeRobotRunner](src/frc/team5234/FakeRobotRunner.java) you need
 
 Sometimes it is useful to visualize data before making decisions about how to program something. The following Google Sheets provide some insight on a way that you might do this.
 
-![Deadband Data](https://docs.google.com/spreadsheets/d/1oDQcvjdlzsXA0NzarO2S8pxdL7bwtg6sIoXOFAVNqxw/edit?usp=sharing)
+[Deadband Data](https://docs.google.com/spreadsheets/d/1oDQcvjdlzsXA0NzarO2S8pxdL7bwtg6sIoXOFAVNqxw/edit?usp=sharing)
 
-![Expo Rate Data](https://docs.google.com/spreadsheets/d/17JpC_GfEy160mW_jNdp2ODvHCdr3x4hH6SUE2tvlgRw/edit?usp=sharing)
+[Expo Rate Data](https://docs.google.com/spreadsheets/d/17JpC_GfEy160mW_jNdp2ODvHCdr3x4hH6SUE2tvlgRw/edit?usp=sharing)

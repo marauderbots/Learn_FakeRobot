@@ -5,7 +5,7 @@ import java.text.MessageFormat;
 public class ExpoRateUtility {
 
     /**
-     * Declare our deadband zone as a constant
+     * Declare our exponent as a constant
      */
     protected static final int EXPONENT = 3;
 
